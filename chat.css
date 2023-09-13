@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    height: 100vh;
+    /* width: 100vw; */
+    /* background-color: lightgrey; */
+    background-color: hsl(270, 20%, 96%);
+}
+
+.container {
+    background-image: linear-gradient(to bottom left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    position: absolute;
+    width: 500px;
+    height: 1200px;
+    border-bottom-left-radius: 190px;
+    border-bottom-right-radius: 250px;
+}
+
+.name {
+    /* display: flex; 
+    /* flex-wrap: wrap; */
+    position: absolute;
+    border: 15px solid white;
+    border-radius: 50px;
+    width: 420px;
+    height: 930px;
+    background-color: hsl(270, 20%, 96%);
+    margin-top: 80px;
+    margin-left: 400px;
+    /* background-color: hsl(264, 100%, 61%); */
+}
+
+.deets {
+    display: flex;
+    flex-wrap: wrap;
+    /* position: relative; */
+    /* top: -50px; */
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(289, 100%, 72%));
+    border-radius: 30px;
+    height: 140px;
+}
+
+.white-box {
+    position: absolute;
+    top: -15px;
+    background-color: white;
+    /* border: 2px solid blue; */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 220px;
+    height: 50px;
+    margin-left: 85px;
+}
+
+
+/* .parent {
+    display: flex;
+     flex-wrap: wrap;  
+} */
+
+.icon-one {
+    margin-left: 13px;
+    margin-top: 80px;
+    color: white;
+}
+
+.avatar {
+    margin-left: 20px;
+    margin-top: 70px;
+    height: 50px;
+    width: 50px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.info h2 {
+    margin-left: 15px;
+    margin-top: 70px;
+    /* top: -10px; */
+    color: white;
+}
+
+.info p {
+    margin-left: 15px;
+    color: white;
+}
+
+.icon-two {
+    margin-left: 90px;
+    margin-top: 80px;
+    color: white;
+}
+
+.words {
+    margin-top: 15px;
+}
+
+.left-texts {
+    /* border: 1px solid silver; */
+    background-color: lightgray;
+    border-radius: 10px;
+    border-width: 10px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+    width: 280px;
+    padding: 0.6rem;
+    color: hsl(289, 100%, 72%);
+}
+
+.right-texts {
+    background-color: lightgray;
+    border-radius: 10px;
+    border-width: 10px;
+    margin-bottom: 18px;
+    margin-left: 100px;
+    width: 280px;
+    padding: 0.6rem;
+}
+
+.left-txt {
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 8px;
+    border-width: 10px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+    width: 280px;
+    padding: 0.9rem;
+    color: white;
+}
+
+.left-txt h3 {
+    margin-left: 30px;
+}
+
+.money {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.money-one {
+    font-size: 25px;
+    margin-left: 65px;
+}
+
+.images {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    /* border-radius: 40px; */
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+.one {
+    margin-left: 15px;
+    border-radius: 30px;
+}
+
+.two {
+    margin-left: 15px;
+    border-radius: 30px;
+}
+
+.three {
+    margin-left: 15px;
+    border-radius: 30px;
+}
+
+.forms {
+    display: flex;
+}
+
+.form-group {
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 325px;
+}
+
+input {
+    width: 380px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.last-icon {
+    margin-top: 27px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: hsl(271, 36%, 24%);
+    color: white;
+    padding: 0.25rem;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+}
+
+.about {
+    margin-left: 950px;
+    padding-top: 300px;
+}
+
+.about h1 {
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: 900px;
+    color: hsl(271, 37%, 19%);
+}
+
+.about p {
+    font-size: 20px;
+    /* line-break: 30px; */
+    letter-spacing: 1.5px;
+    color: hsl(271, 36%, 24%)
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        height: 900px;
+    }
+    .name {
+        margin-left: 300px;
+    }
+    .about {
+        padding-top: 1200px;
+        margin-left: 50px;
+        padding-bottom: 100px;
+    }
+    .about h1,
+    p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .container {
+        width: 400px;
+    }
+    .name {
+        margin-left: 200px;
+    }
+    .about {
+        padding-top: 1200px;
+        margin-left: 220px;
+        padding-bottom: 100px;
+    }
+    .about h1,
+    p {
+        text-align: center;
+    }
+}
